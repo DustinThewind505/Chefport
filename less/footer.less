@@ -1,0 +1,67 @@
+footer{
+    background: @lighter-bg;
+    color: white;
+    margin-top: 33%;
+    padding-top: 15%;
+    .align-column();
+
+    nav {
+        width: 45%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+
+        a {
+            color: white;
+            text-decoration: none;        
+            font-size: 2rem;
+        }
+
+        @media @mobile {
+            width: 100%;
+        }
+
+    
+    }
+  
+  .iconContainer {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+
+        div {
+            .width-height(40px, 40px);
+            margin-left: 3%;
+        }
+  }
+
+  span {
+      font-size: 4rem;
+    }
+
+    .copyrightContainer {
+        margin: 2% 0 4%;
+
+        p {
+            color: @opacity-font;
+        }
+    }
+
+    .iconimg1 {
+        background-image: url(https://cdn.iconscout.com/icon/free/png-256/facebook-35-83440.png);
+        .icon-img();
+    }
+
+    .iconimg2 {
+        background-image: url(https://cdn.iconscout.com/icon/free/png-256/twitter-34-83443.png);
+        .icon-img();
+    }
+
+    .iconimg3 {
+        background-image: url(https://cdn.iconscout.com/icon/free/png-256/instagram-52-151106.png);
+        .icon-img();
+    }
+
+
+}

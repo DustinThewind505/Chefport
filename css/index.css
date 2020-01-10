@@ -832,11 +832,11 @@ footer .iconimg3 {
   color: red;
   font-style: italic;
 }
-.home .profile-bottom .profile-bottom-img {
-  display: flex;
-  justify-content: space-evenly;
-}
 .home .profile-bottom .profile-bottom-video {
+  display: flex;
+  justify-content: center;
+}
+.home .profile-bottom .profile-bottom-img {
   display: flex;
   justify-content: space-evenly;
 }
